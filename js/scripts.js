@@ -2,8 +2,8 @@
 var pokemonList = [
     {
         name:'Bulbasaur',
-        height: 7,
-        type=['grass','poison']
+        height: 0.7,
+        type:['grass','poison']
     },
     {
         name:'Venusaur',
@@ -13,7 +13,12 @@ var pokemonList = [
     {
         name:'charizard',
         height: 1.7,
-        type=['fire','flying']
+        type:['fire','flying']
     }
 ]
+
+
+
+  
+
 
