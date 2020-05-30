@@ -15,11 +15,11 @@ var pokemonList = [
         height: 1.7,
         type:['fire','flying']
     }
-]
+];
 
-// console.log(pokemonList)
-
-
-  
-
-
+for (var i = 0; i < pokemonList.length; i++) {
+    if(pokemonList[i].height > 1) {
+        document.write('Pockemon name: ' + pokemonList[i].name + ', height:  ' + pokemonList[i].height + '- that is so hight! ')    
+    } else
+        document.write('Pockemon name: ' + pokemonList[i].name + ',  height: ' + pokemonList[i].height + ' /' + ' ')
+  }
