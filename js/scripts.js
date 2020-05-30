@@ -8,7 +8,7 @@ var pokemonList = [
     {
         name:'Venusaur',
         height: 2,
-        type=['grass','poison']
+        type:['grass','poison']
     },
     {
         name:'charizard',
@@ -17,6 +17,7 @@ var pokemonList = [
     }
 ]
 
+// console.log(pokemonList)
 
 
   
