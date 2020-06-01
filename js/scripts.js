@@ -39,7 +39,7 @@ var pokemonRepository = (() => {
     }
 
     var showDetails = (pokemon) => {
-        console.log('Pokemon height is:' + pokemon.height)
+        console.log('Your pokemon name is: ' + pokemon.name + ' ' +'and the height is: ' + pokemon.height)
     }
 
     return {
