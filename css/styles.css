@@ -20,6 +20,20 @@ li {
     margin: 5px;
 }
 
+#app-title {
+    font-size: 24px;
+}
+
+.poke-name-title {
+    font-size: 52px;
+    text-transform: capitalize;
+}
+
+.modal-close {
+    padding: 10px;
+    border: none;
+}
+
 .poke-btn {
     border: 0.2px solid lightgray;
     text-align: left;
@@ -31,4 +45,31 @@ li {
 
 .poke-btn:hover {
     background-color: lightgray;
+}
+
+ /* styling models */
+
+ .container {
+     display: grid;
+     grid-template-columns: 300px 1fr 50px;
+ }
+
+ #modal-container {
+     display: none;
+     /* background-color: lightgray; */
+  }
+  
+  #modal-container.is-visible {
+    /* CSS for modal container - add your own desired CSS styles here */
+    display: block;
+    border: 10px solid lightgray;
+     border-radius: var(--border-radius);
+     padding: 20px;
+     max-height: 600px;
+     max-width: 500px;
+  }
+
+img {
+    max-width: 450px;
+    width: 100%;
 }
