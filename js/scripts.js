@@ -43,7 +43,7 @@ var pokemonRepository = (() => {
 
         // creating title in modal content
         var titleElement = document.createElement('h1');
-        titleElement.classList.add('poke-name-title')
+        titleElement.classList.add('poke-name-title');
         titleElement.innerText = item.name;
       
         // creating height in modal content
@@ -71,11 +71,10 @@ var pokemonRepository = (() => {
         pokemonList.appendChild(listItem)
         button.addEventListener('click',(e) => {
             showDetails(pokemon);
-            showModal()
+            // showModal()
         })   
     }
 
-    //Function to load pokemon list from API
 
     var loadList = () => {
         return fetch(apiUrl).then(function (response) {
